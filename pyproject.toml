@@ -5,3 +5,6 @@ build-backend = "hatchling.build"
 [project]
 name = "exercise-chapter-3"
 version = "0.1"
+
+[tool.hatch.build.targets.wheel]
+    packages = ["polynomials", "shape"]
